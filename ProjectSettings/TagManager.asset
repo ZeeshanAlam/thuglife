@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bird
+  - Bee
+  - Thunder
+  - Witch
+  - GM
+  - Asteroid
+  - Arrow
+  - Coin
+  - GroundEnemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - character
+  - Bow
+  - Ground
+  - Enemy
+  - Thunder
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 825939553
+    locked: 0
+  - name: Foreground
+    uniqueID: 3671603489
+    locked: 0
+  - name: New Layer
+    uniqueID: 1503324847
+    locked: 0
+  - name: Player
+    uniqueID: 2523692529
+    locked: 0
