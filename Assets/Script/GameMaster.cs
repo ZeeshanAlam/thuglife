@@ -68,12 +68,16 @@ public class GameMaster : MonoBehaviour {
 
 		// Add particles
 		Transform _clone = Instantiate(_enemy.deathParticles, _enemy.transform.position, Quaternion.identity) as Transform;
-		Destroy(_clone.gameObject, 5f);
 
+
+		    Destroy(_clone.gameObject, 5f);
 
 
 		// Go camerashake
 		cameraShake.Shake(_enemy.shakeAmt, _enemy.shakeLength);
+		if (_enemy.transform.parent != null)
+			Destroy (_enemy.transform.parent.gameObject);
+		else
 		Destroy(_enemy.gameObject);
 	}
 
